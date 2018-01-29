@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="APermission.cs" />
     <Compile Include="BPermission.cs" />
+    <Compile Include="PermissionCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

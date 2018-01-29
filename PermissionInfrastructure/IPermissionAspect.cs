@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace PermissionInfrastructure
 {
-    public interface IPermissionProvider
+    public interface IPermissionAspect : IPriorityProvider, IPermissionProvider, IComparable<IPriorityProvider>
     {
-        IEnumerable<string> GetPermissionList();
-
-
+        bool ContainPermission(string right);
     }
 }

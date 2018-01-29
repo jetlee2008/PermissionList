@@ -237,6 +237,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Filter\CanEditPermission.cs" />
+    <Compile Include="Filter\PermissionActionFilterBase.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -318,6 +319,16 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PermissionImplication\PermissionImplement.csproj">
+      <Project>{5A008ABB-9A51-4517-9D2D-F4AAA5D244BD}</Project>
+      <Name>PermissionImplement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PermissionInfrastructure\PermissionInfrastructure.csproj">
+      <Project>{C6BD3A2C-B3A1-4347-A456-2500E6EAA074}</Project>
+      <Name>PermissionInfrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

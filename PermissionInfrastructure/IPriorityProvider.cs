@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PermissionInfrastructure
 {
-    public interface IPriorityProvider
+    public interface IPriorityProvider:
     {
         int GetPermissionPriority();
     }

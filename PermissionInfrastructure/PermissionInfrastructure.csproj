@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPermissionAspect.cs" />
+    <Compile Include="IPermissionCalculator.cs" />
     <Compile Include="IPermissionProvider.cs" />
     <Compile Include="IPriorityProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

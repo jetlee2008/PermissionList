@@ -29,5 +29,7 @@ namespace PermissionImplement
         {
             this._permissionList = permissionList;
         }
+
+        public APermission() { }
     }
 }
